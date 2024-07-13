@@ -9,8 +9,15 @@ env:
 # Extends recommended ESLint configurations
 extends:
   - eslint:recommended
-  - plugin:@typescript-eslint/recommended
+  - plugin:react/recommended
+  - plugin:react/jsx-runtime
   - plugin:react-hooks/recommended
+  - plugin:@typescript-eslint/recommended
+
+# Checks for react version
+settings:
+  react:
+    version: "detect" # Automatically detect the react version
 
 # Files and directories to ignore
 ignorePatterns:
