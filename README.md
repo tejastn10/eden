@@ -75,4 +75,3 @@ Prettier is set up to automatically format your code, ensuring a consistent code
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-
