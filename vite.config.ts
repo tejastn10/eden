@@ -7,7 +7,6 @@ export default defineConfig({
 	server: {
 		port: 8080, // Port for the dev server
 		hmr: true, // Enable Hot Module Replacement
-		open: true, // Open the browser when the server starts
 	},
 	// Build configuration
 	build: {
