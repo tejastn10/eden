@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and includes preconfigured ESLint rules, Husky, Commitlint, and Prettier for a streamlined development experience.
+This template provides a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and includes pre-configured ESLint rules, Husky, Commitlint, and Prettier for a streamlined development experience.
 
 ## Features
 
