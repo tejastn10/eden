@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
 	// Server configuration
 	server: {
-		port: 8080, // Port for the dev server
+		port: 3000, // Port for the dev server
 		hmr: true, // Enable Hot Module Replacement
 	},
 	// Build configuration
