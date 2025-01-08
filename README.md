@@ -1,77 +1,70 @@
-# React + TypeScript + Vite
+# Eden 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and includes pre-configured ESLint rules, Husky, Commitlint, and Prettier for a streamlined development experience.
+![Node.js Version](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-007ACC?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-19%2B-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6%2B-646CFF?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
-## Features
+**Eden** is a minimal React + TypeScript template designed to get started quickly with [Vite](https://vitejs.dev/). It includes pre-configured tools like ESLint, Prettier, Husky, and Commitlint to streamline development and enforce consistent code quality.
 
-- **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A strongly typed programming language that builds on JavaScript.
-- **Vite**: A fast build tool and development server.
-- **ESLint**: A tool for identifying and fixing linting issues in your code.
-- **Husky**: Git hooks made easy, enabling pre-commit hooks.
-- **Commitlint**: Helps ensure that your commit messages follow a consistent format.
-- **Prettier**: An opinionated code formatter.
+---
 
-## Getting Started
+## Features 🌟
 
-### Installation
+- **React + Vite**: Fast development with hot module replacement.
+- **TypeScript**: Strongly typed language for better code reliability.
+- **Pre-configured Tooling**:
+  - **ESLint**: Identify and fix linting issues.
+  - **Prettier**: Opinionated code formatting.
+  - **Husky**: Pre-commit hooks for better workflows.
+  - **Commitlint**: Enforce consistent commit message formatting.
+- **Developer Experience**: Optimized for speed and simplicity.
 
-```bash
-npm install
-```
+---
 
-### Development
+## Getting Started 🚀
 
-Start the development server:
+### Prerequisites
 
-```bash
-npm run dev
-```
+Ensure you have the following installed:
 
-### Build
+- **Node.js**: v22 or later.
 
-Build the project for production:
+---
 
-```bash
-npm run build
-```
+### Installation ⚙️
 
-### Linting
+1. Clone the repository:  
 
-Lint the project with ESLint:
+   ```bash
+   git clone https://github.com/tejastn10/eden.git
+   cd eden
 
-```bash
-npm run lint
-```
+2. Install dependencies:
 
-### Formatting
+   ```bash
+   npm install
+   ```
 
-Format the project with Prettier:
+3. Start the development server:
 
-```bash
-npm run format
-```
+   ```bash
+   npm run dev
+   ```
 
-## Pre-configured Tools
+4. Open your browser at `http://localhost:3000` to see Eden in action.
 
-### ESLint Configuration
+---
 
-The project comes with a pre-configured ESLint setup. If you are developing a production application.
+## License 📜
 
-### Husky
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Husky is set up to run pre-commit hooks, ensuring that your code meets the defined standards before each commit.
+---
 
-### Commitlint
+## Acknowledgments 🙌
 
-Commitlint is configured to enforce a consistent commit message format.
-
-### Prettier
-
-Prettier is set up to automatically format your code, ensuring a consistent code style across the project.
-
-## Additional Resources
-
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- Built with **Vite** for blazing-fast development workflows.
+- Inspired by the simplicity of **Eden**, a lush and minimal starting point for React projects.
+- Made with ❤️ for developers who love clean and scalable codebases.
