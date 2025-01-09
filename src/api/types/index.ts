@@ -13,8 +13,7 @@ type SaveToLocalStorage = FetchFromLocalStorage & {
 
 type BaseRequest = {
 	url: string;
-	// TODO: Remove optional chaining
-	version?: URLVersions;
+	version: URLVersions;
 	apiConfig?: AxiosRequestConfig;
 };
 
