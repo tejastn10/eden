@@ -7,7 +7,7 @@
 ![Node.js Version](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-007ACC?logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-19%2B-61DAFB?logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-6%2B-646CFF?logo=vite&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7%2B-646CFF?logo=vite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
 **Eden** is a minimal React + TypeScript template designed to get started quickly with [Vite](https://vitejs.dev/). It includes pre-configured tools like ESLint, Prettier, Husky, and Commitlint to streamline development and enforce consistent code quality.
