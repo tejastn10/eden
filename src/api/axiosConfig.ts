@@ -1,6 +1,6 @@
-import axios, { AxiosRequestConfig } from "axios";
+import axios, { type AxiosRequestConfig } from "axios";
 
-import { ContentType, ResponseType, ResponseEncoding } from "../config/requestConfig";
+import { ContentType, ResponseEncoding, ResponseType } from "../config/requestConfig";
 
 const baseURL = (import.meta.env.VITE_API_BASE_URL as string) ?? "http://localhost:3000";
 

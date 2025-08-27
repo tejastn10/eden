@@ -1,19 +1,18 @@
-import { AxiosError, AxiosRequestConfig, AxiosResponse } from "axios";
-
-import { logAPIError, logDebug, logError } from "../../log/logger";
+import type { AxiosError, AxiosRequestConfig, AxiosResponse } from "axios";
 import { ContentType } from "../../config/requestConfig";
+import { logAPIError, logDebug, logError } from "../../log/logger";
 
-import { axiosRequestConfig, AxiosInstance } from "../axiosConfig";
+import { AxiosInstance, axiosRequestConfig } from "../axiosConfig";
 
-import {
-	FetchFromLocalStorage,
-	SaveToLocalStorage,
+import type {
 	AnyValue,
+	DeleteRequest,
+	FetchFromLocalStorage,
 	GetRequest,
+	PatchRequest,
 	PostRequest,
 	PutRequest,
-	PatchRequest,
-	DeleteRequest,
+	SaveToLocalStorage,
 } from "../types";
 
 enum URLVersions {
@@ -209,14 +208,12 @@ export {
 	clearDataFromLocalStorage,
 	clearLocalStorage,
 	getRequestConfig,
-
 	// ? Requests
 	GET,
 	POST,
 	PUT,
 	PATCH,
 	DELETE,
-
 	// ? Types
 	URLVersions,
 };

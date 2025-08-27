@@ -1,5 +1,5 @@
-import { AxiosRequestConfig } from "axios";
-import { URLVersions } from "../helper";
+import type { AxiosRequestConfig } from "axios";
+import type { URLVersions } from "../helper";
 
 type AnyValue = undefined | null | string | number | boolean | Record<string, unknown>;
 
