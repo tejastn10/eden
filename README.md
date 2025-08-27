@@ -10,7 +10,7 @@
 ![Vite](https://img.shields.io/badge/Vite-7%2B-646CFF?logo=vite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
-**Eden** is a minimal React + TypeScript template designed to get started quickly with [Vite](https://vitejs.dev/). It includes pre-configured tools like ESLint, Prettier, Husky, and Commitlint to streamline development and enforce consistent code quality.
+**Eden** is a minimal React + TypeScript template designed to get started quickly with [Vite](https://vitejs.dev/). It includes pre-configured tools like Biomejs, Husky, and Commitlint to streamline development and enforce consistent code quality.
 
 ---
 
@@ -19,8 +19,7 @@
 - **React + Vite**: Fast development with hot module replacement.
 - **TypeScript**: Strongly typed language for better code reliability.
 - **Pre-configured Tooling**:
-  - **ESLint**: Identify and fix linting issues.
-  - **Prettier**: Opinionated code formatting.
+  - **BiomeJS**: Enforces consistent code quality.
   - **Husky**: Pre-commit hooks for better workflows.
   - **Commitlint**: Enforce consistent commit message formatting.
 - **Developer Experience**: Optimized for speed and simplicity.
