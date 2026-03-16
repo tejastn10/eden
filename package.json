@@ -29,24 +29,24 @@
 	"engines": {
 		"node": ">=22"
 	},
-	"packageManager": "npm@11.11.0",
+	"packageManager": "npm@11.11.1",
 	"dependencies": {
 		"axios": "^1.13.6",
 		"react": "^19.2.4",
 		"react-dom": "^19.2.4"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.4.6",
-		"@commitlint/cli": "^20.4.3",
-		"@commitlint/config-conventional": "^20.4.3",
+		"@biomejs/biome": "^2.4.7",
+		"@commitlint/cli": "^20.5.0",
+		"@commitlint/config-conventional": "^20.5.0",
 		"@types/react": "^19.2.14",
 		"@types/react-dom": "^19.2.3",
-		"@vitejs/plugin-react": "^5.1.4",
+		"@vitejs/plugin-react": "^6.0.1",
 		"globals": "^17.4.0",
 		"husky": "^9.1.7",
-		"jest": "^30.2.0",
-		"lint-staged": "^16.3.2",
+		"jest": "^30.3.0",
+		"lint-staged": "^16.4.0",
 		"typescript": "^5.9.3",
-		"vite": "^7.3.1"
+		"vite": "^8.0.0"
 	}
 }
